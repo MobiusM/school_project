@@ -37,6 +37,9 @@
         .holiday {
             color: blue;
         }
+        .shabat{
+            color:#FF0000;
+        }
         body{
             font-family:Roboto;
         }
@@ -65,7 +68,7 @@
             </td>
             <td>5</td>
             <td>6</td>
-            <td>7</td>
+            <td class="shabat">7</td>
         </tr>
         <tr>
             <td>8</td>
@@ -78,7 +81,7 @@
             <td>13
                 <div class="holiday">Sukot</div>
             </td>
-            <td>14
+            <td class="shabat">14
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
@@ -101,7 +104,7 @@
             <td>20
                 <div class="holiday">Sukot</div>
             </td>
-            <td>21
+            <td class="shabat">21
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
@@ -118,7 +121,7 @@
             <td>25</td>
             <td>26</td>
             <td>27</td>
-            <td>28</td>
+            <td class="shabat">28</td>
         </tr>
         <tr>
             <td>29</td>
