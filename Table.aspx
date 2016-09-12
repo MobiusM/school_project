@@ -4,17 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>October Calander</title>
 </head>
 <body>
-        <table>
-        <tr>
-            <td>א</td>
-        </tr>
-        <tr>
-            <td>אינציקלופדיה</td>
-        </tr>
-        
-        </table>
+        <p>
+            </p>
 </body>
 </html>
