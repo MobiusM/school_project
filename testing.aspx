@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Table.aspx.cs" Inherits="Table" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Calendar.aspx.cs" Inherits="Table" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -6,9 +6,10 @@
 <head runat="server">
     <title>October Calendar</title>
     <style type="text/css">
+        @import 'https://fonts.googleapis.com/css?family=Roboto';
         h1 {
             text-align: center;
-            color: #479030;
+            color: #388E3C;
         }
 
         table {
@@ -16,12 +17,13 @@
             width: 900px;
             table-layout: fixed;
             text-align: center;
-            border: 1px solid black;
+            border: 0px solid black;
         }
 
         td {
-            padding: 5px 10px 10px 10px;
-            color: dimgray;
+            padding: 1px 10px 50px 10px;
+            background-color: #BDBDBD;
+            height:80px;
         }
 
         tr {
@@ -30,8 +32,9 @@
         th {
             text-align: center;
             padding: 10px;
-            color: deeppink;
+            background-color: #FFCCBC;
             border:2px solid black;
+            color: #FF5722;
         }
 
         .holiday {
@@ -39,9 +42,19 @@
         }
         .shabat{
             color:#FF0000;
+            background: #757575;
+        }
+        .notOctober{
+            color:#EEEEEE;
         }
         body{
-            font-family:Roboto;
+            font-family: 'Roboto', sans-serif;
+        }
+        footer
+        {
+            margin-top:200px;
+            text-align:center;
+            font-size:small;
         }
     </style>
 </head>
@@ -58,7 +71,11 @@
             <th title="Sat" scope="col">Sat</th>
         </tr>
         <tr>
+            <td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
             <td>1</td>
+        </tr>
+        <tr>
+            
             <td>2</td>
             <td>3
                 <div class="holiday">Rosh Hashana (New Year)</div>
@@ -68,10 +85,11 @@
             </td>
             <td>5</td>
             <td>6</td>
-            <td class="shabat">7</td>
+            <td>7</td>
+            <td class="shabat">8</td>
         </tr>
         <tr>
-            <td>8</td>
+            
             <td>9</td>
             <td>10</td>
             <td>11</td>
@@ -81,14 +99,15 @@
             <td>13
                 <div class="holiday">Sukot</div>
             </td>
-            <td class="shabat">14
+            <td>14
+                <div class="holiday">Sukot</div>
+            </td>
+            <td class="shabat">15
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
         <tr>
-            <td>15
-                <div class="holiday">Sukot</div>
-            </td>
+            
             <td>16
                 <div class="holiday">Sukot</div>
             </td>
@@ -104,14 +123,15 @@
             <td>20
                 <div class="holiday">Sukot</div>
             </td>
-            <td class="shabat">21
+            <td>21
+                <div class="holiday">Sukot</div>
+            </td>
+            <td class="shabat">22
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
         <tr>
-            <td>22
-                <div class="holiday">Sukot</div>
-            </td>
+            
             <td>23
                 <div class="holiday">Shmini Atzeret</div>
             </td>
@@ -121,13 +141,19 @@
             <td>25</td>
             <td>26</td>
             <td>27</td>
-            <td class="shabat">28</td>
+            <td>28</td>
+            <td class="shabat">29</td>
         </tr>
         <tr>
-            <td>29</td>
+            
             <td>30</td>
             <td>31</td>
         </tr>
     </table>
+
+    
 </body>
+<footer>
+    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>
+</footer>
 </html>
