@@ -15,7 +15,7 @@
 
         table {
             display: grid;
-            width: 900px;
+            width: 1000px;
             table-layout: fixed;
             text-align: center;
             border: 0px solid black;
@@ -24,7 +24,7 @@
         td {
             padding: 1px 10px 50px 10px;
             background-color: #BDBDBD;
-            height: 80px;
+            height: 50px;
         }
 
         tr {
@@ -40,6 +40,18 @@
 
         .holiday {
             color: blue;
+        }
+
+        .roshana{
+            background-color:#FFD54F;
+        }
+
+        .kippur{
+
+        }
+
+        .sukot{
+
         }
 
         .shabat {
@@ -61,9 +73,11 @@
             text-align: center;
             font-size: small;
         }
+
         a{
             color:inherit;
         }
+
         #notOctoberShabat {
             background-color: #a6a6a6;
         }
@@ -93,10 +107,10 @@
         <tr>
 
             <td>2</td>
-            <td>3
+            <td class="roshana">3
                 <div class="holiday">Rosh Hashana (New Year)</div>
             </td>
-            <td>4
+            <td class="roshana">4
                 <div class="holiday">Rosh Hashana</div>
             </td>
             <td>5</td>
