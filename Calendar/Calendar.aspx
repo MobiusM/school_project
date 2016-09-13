@@ -65,7 +65,7 @@
             <td>1</td>
             <td>2</td>
             <td>3
-                <div class="holiday"> Hashana (New Year)</div>
+                <div class="holiday">Rosh Hashana (New Year)</div>
             </td>
             <td>4
                 <div class="holiday">Rosh Hashana</div>
