@@ -10,13 +10,12 @@
             width: 1000px;
             table-layout: fixed;
             text-align: center;
-            border: 0px solid black;
+            border: 0px solid white;
         }
 
         td {
-            padding: 1px 10px 50px 10px;
             background-color: #BDBDBD;
-            height: 50px;
+            height: 90px;
         }
 
         tr {
@@ -26,24 +25,28 @@
             text-align: center;
             padding: 10px;
             background-color: #FFCCBC;
-            border: 2px solid black;
+            border: 2px dashed white;
             color: #FF5722;
         }
 
         .holiday {
-            color: blue;
+            position:relative;
+            padding-bottom:2px;
         }
 
         .roshana{
             background-color:#FFD54F;
+            color:#EF6C00;
         }
 
         .kippur{
             background-color:#81C784;
+            color:#2E7D32;
         }
 
         .sukot{
             background-color:#4DD0E1;
+            color:#00838F;
         }
 
         .shabat {
@@ -71,7 +74,7 @@
         }
 
         #notOctoberShabat {
-            background-color: #a6a6a6;
+            background-color: #9E9E9E;
         }
 
         #sukotshabat{

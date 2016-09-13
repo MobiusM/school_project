@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1><u>October Calendar</u></h1>
-    <table title="October" align="center" cellspacing="0">
+    <table align="center" cellspacing="0">
         <tr>
             <th title="Sun" scope="col">Sun</th>
             <th title="Mon" scope="col">Mon</th>
