@@ -47,6 +47,11 @@
         body{
             font-family: 'Roboto', sans-serif;
         }
+        footer
+        {
+            margin-top:200px;
+            text-align:center;
+        }
     </style>
 </head>
 <body>
@@ -133,5 +138,10 @@
             <td>31</td>
         </tr>
     </table>
+
+    
 </body>
+<footer>
+    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>
+</footer>
 </html>
