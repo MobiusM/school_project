@@ -51,6 +51,7 @@
         {
             margin-top:200px;
             text-align:center;
+            font-size:small;
         }
     </style>
 </head>
