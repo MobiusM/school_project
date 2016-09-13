@@ -9,7 +9,7 @@
         @import 'https://fonts.googleapis.com/css?family=Roboto';
         h1 {
             text-align: center;
-            color: #479030;
+            color: #388E3C;
         }
 
         table {
@@ -22,7 +22,7 @@
 
         td {
             padding: 5px 10px 10px 10px;
-            color: dimgray;
+            background-color: #BDBDBD;
             height:80px;
         }
 
@@ -32,7 +32,7 @@
         th {
             text-align: center;
             padding: 10px;
-            color: deeppink;
+            color: #607D8B;
             border:2px solid black;
         }
 
