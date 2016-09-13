@@ -22,6 +22,7 @@
         td {
             padding: 5px 10px 10px 10px;
             color: dimgray;
+            height:80px;
         }
 
         tr {
@@ -39,6 +40,7 @@
         }
         .shabat{
             color:#FF0000;
+            background:black;
         }
         body{
             font-family:Roboto;
