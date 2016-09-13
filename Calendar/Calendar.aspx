@@ -68,7 +68,10 @@
             <th title="Sat" scope="col">Sat</th>
         </tr>
         <tr>
-            <td>1</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td>1</td>
+        </tr>
+        <tr>
+            
             <td>2</td>
             <td>3
                 <div class="holiday">Rosh Hashana (New Year)</div>
@@ -78,10 +81,11 @@
             </td>
             <td>5</td>
             <td>6</td>
-            <td class="shabat">7</td>
+            <td>7</td>
+            <td class="shabat">8</td>
         </tr>
         <tr>
-            <td>8</td>
+            
             <td>9</td>
             <td>10</td>
             <td>11</td>
@@ -91,14 +95,15 @@
             <td>13
                 <div class="holiday">Sukot</div>
             </td>
-            <td class="shabat">14
+            <td>14
+                <div class="holiday">Sukot</div>
+            </td>
+            <td class="shabat">15
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
         <tr>
-            <td>15
-                <div class="holiday">Sukot</div>
-            </td>
+            
             <td>16
                 <div class="holiday">Sukot</div>
             </td>
@@ -114,14 +119,15 @@
             <td>20
                 <div class="holiday">Sukot</div>
             </td>
-            <td class="shabat">21
+            <td>21
+                <div class="holiday">Sukot</div>
+            </td>
+            <td class="shabat">22
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
         <tr>
-            <td>22
-                <div class="holiday">Sukot</div>
-            </td>
+            
             <td>23
                 <div class="holiday">Shmini Atzeret</div>
             </td>
@@ -131,10 +137,11 @@
             <td>25</td>
             <td>26</td>
             <td>27</td>
-            <td class="shabat">28</td>
+            <td>28</td>
+            <td class="shabat">29</td>
         </tr>
         <tr>
-            <td>29</td>
+            
             <td>30</td>
             <td>31</td>
         </tr>
