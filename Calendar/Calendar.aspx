@@ -5,83 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>October Calendar</title>
-    <style type="text/css">
-        @import 'https://fonts.googleapis.com/css?family=Roboto';
-
-        h1 {
-            text-align: center;
-            color: #388E3C;
-        }
-
-        table {
-            display: grid;
-            width: 1000px;
-            table-layout: fixed;
-            text-align: center;
-            border: 0px solid black;
-        }
-
-        td {
-            padding: 1px 10px 50px 10px;
-            background-color: #BDBDBD;
-            height: 50px;
-        }
-
-        tr {
-        }
-
-        th {
-            text-align: center;
-            padding: 10px;
-            background-color: #FFCCBC;
-            border: 2px solid black;
-            color: #FF5722;
-        }
-
-        .holiday {
-            color: blue;
-        }
-
-        .roshana{
-            background-color:#FFD54F;
-        }
-
-        .kippur{
-
-        }
-
-        .sukot{
-
-        }
-
-        .shabat {
-            color: #FF0000;
-            background: #757575;
-        }
-
-        .notOctober {
-            color: #737373;
-            background-color: #d9d9d9;
-        }
-
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        footer {
-            margin-top: 200px;
-            text-align: center;
-            font-size: small;
-        }
-
-        a{
-            color:inherit;
-        }
-
-        #notOctoberShabat {
-            background-color: #a6a6a6;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
     <h1><u>October Calendar</u></h1>
@@ -123,7 +47,7 @@
             <td>9</td>
             <td>10</td>
             <td>11</td>
-            <td>12
+            <td class="kippur">12
                 <div class="holiday">Yom Kippur</div>
             </td>
             <td>13
@@ -137,31 +61,31 @@
 
             <td>16
             </td>
-            <td>17
+            <td class="sukot">17
                 <div class="holiday">Sukot</div>
             </td>
-            <td>18
+            <td class="sukot">18
                 <div class="holiday">Sukot</div>
             </td>
-            <td>19
+            <td class="sukot">19
                 <div class="holiday">Sukot</div>
             </td>
-            <td>20
+            <td class="sukot">20
                 <div class="holiday">Sukot</div>
             </td>
-            <td>21
+            <td class="sukot">21
                 <div class="holiday">Sukot</div>
             </td>
-            <td class="shabat">22
+            <td id="sukotshabat">22
                 <div class="holiday">Sukot</div>
             </td>
         </tr>
         <tr>
 
-            <td>23
+            <td class="sukot">23
                 <div class="holiday">Sukot</div>
             </td>
-            <td>24
+            <td class="sukot">24
                 <div class="holiday">Shmini Atzeret</div>
             </td>
             <td>25</td>
