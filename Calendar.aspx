@@ -17,11 +17,11 @@
             width: 900px;
             table-layout: fixed;
             text-align: center;
-            border: 1px solid black;
+            border: 0px solid black;
         }
 
         td {
-            padding: 5px 10px 10px 10px;
+            padding: 1px 10px 50px 10px;
             background-color: #BDBDBD;
             height:80px;
         }
@@ -32,8 +32,9 @@
         th {
             text-align: center;
             padding: 10px;
-            color: #607D8B;
+            background-color: #FFCCBC;
             border:2px solid black;
+            color: #FF5722;
         }
 
         .holiday {
@@ -41,7 +42,7 @@
         }
         .shabat{
             color:#FF0000;
-            background:black;
+            background: #757575;
         }
         body{
             font-family: 'Roboto', sans-serif;
@@ -64,7 +65,7 @@
             <td>1</td>
             <td>2</td>
             <td>3
-                <div class="holiday">Rosh Hashana (New Year)</div>
+                <div class="holiday"> Hashana (New Year)</div>
             </td>
             <td>4
                 <div class="holiday">Rosh Hashana</div>
