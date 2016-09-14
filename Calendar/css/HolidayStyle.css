@@ -1,0 +1,38 @@
+﻿p {
+    direction: rtl;
+    color: black;
+    font-size: 15px;
+}
+
+body {
+    font-family: Arial;
+}
+
+    body.shabat {
+        background-color: #c7c7c7;
+    }
+
+    body.kipur {
+        background-color: #cce8cd;
+    }
+
+    body.roshana {
+        background-color: #ffeeb8;
+    }
+
+    body.sukot {
+        background-color: #b7ecf3;
+    }
+
+table {
+    text-align: right;
+}
+
+td {
+    text-align: right;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
