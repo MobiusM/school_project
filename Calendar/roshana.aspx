@@ -34,10 +34,13 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2"><a href="Calendar.aspx">חזרה לדף הראשי <img src="imgs/BackButton.png" alt="Back" class="back img-hor"/></a>
+            <td colspan="2"><a href="Calendar.aspx">חזרה לדף הראשי
+                <img src="imgs/BackButton.png" alt="Back" class="back img-hor" /></a>
             </td>
         </tr>
     </table>
-
+    <footer>
+    <p>Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016</p>
+</footer>
 </body>
 </html>

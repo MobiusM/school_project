@@ -107,7 +107,7 @@
     </table>
 
     <footer>
-    <p>Created by <a href="mailto:danholandi@gmail.com" shape="circle">Dan Levinson</a>, 2016</p>
+    <p>Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016</p>
 </footer>
 </body>
 
