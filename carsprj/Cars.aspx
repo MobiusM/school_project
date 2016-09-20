@@ -7,7 +7,23 @@
     <title>Cars</title>
 </head>
 <body>
-
-<h1>Welcome to the Super-Cars Web Site</h1>
+    <h1>
+        Welcome to the Super-Cars Web Site</h1>
+    
+    <h2>
+        We sell different cars from various brands</h2>
+    <br />
+    <br />
+    <h3 style="margin-top:50px">
+        We sell <span style="font-style: italic">fast</span> cars and <span style="font-size: larger">
+            s&nbsp;l&nbsp;o&nbsp;w</span> cars. <br />
+       <span style="color:Red">Red</span> cars and <span style="color:Blue">
+                blue</span> cars. <br />
+        <span style="font-size:larger">BIG</span> cars and <span style="font-size:smaller">small</span> cars. <br />
+        But they are all great cars.
+    </h3>
+    <h3 style="margin-top:50px; font-size:x-large; font-weight: light">
+    We have Toyota Honda and other cars.
+    </h3>
 </body>
 </html>
