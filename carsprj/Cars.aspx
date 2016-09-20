@@ -22,8 +22,12 @@
         <span style="font-size:larger">BIG</span> cars and <span style="font-size:smaller">small</span> cars. <br />
         But they are all great cars.
     </h3>
-    <h3 style="margin-top:50px; font-size:x-large; font-weight: light">
+    <h3 style="margin-top:50px; font-size:x-large; font-weight:normal">
     We have Toyota Honda and other cars.
     </h3>
+
+    <hr style="margin-top:280px;border-width:thick"/>
+
+
 </body>
 </html>
