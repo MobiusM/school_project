@@ -17,12 +17,23 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2">
-                <img src="imgs/lambo1.jpg" width="300" alt="lambo1"/>
-                <img src="imgs/lambo2.png" width="300" alt="lambo2"/>
+            <td colspan="3">
+                <img src="imgs/lambo1.jpg" height="150px" alt="lambo1" />
+                <img src="imgs/lambo2.png" height="150px" alt="lambo2" />
+                <img src="imgs/lambo3.jpg" height="150px" alt="lambo3" />
             </td>
         </tr>
     </table>
+
+    <hr class="menu" />
+
+        <table style="width:100%;" id="menu">
+            <tr>
+                <th><a href="Cars.aspx">Back to main menu</a></th>
+                <th><a href="Honda.aspx">Honda's</a></th>
+                <th><a href="Toyota.aspx">Toyota's</a></th>
+            </tr>
+        </table>
 
     <hr />
 

@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/carBrands.css" />
     <title>Toyota</title>
 </head>
-<body>
+<body class="toyota">
 
 
 </body>
