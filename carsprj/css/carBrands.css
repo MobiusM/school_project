@@ -1,8 +1,40 @@
 ﻿@import 'https://fonts.googleapis.com/css?family=Roboto';
 
-body
-{
-    font-family: 'Roboto' , sans-serif;
-    text-align:center;
-    background-color:;
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body.lambo{
+    background-color:#FFF9C4;
+}
+
+h1 {
+    font-weight: bold;
+    color: #E53935;
+}
+
+table{
+ 
+}
+
+hr {
+    border-width: thin;
+    width: 90%;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

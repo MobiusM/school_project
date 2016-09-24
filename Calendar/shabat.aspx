@@ -43,7 +43,8 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2"><a href="Calendar.aspx">חזרה לדף הראשי <img src="imgs/BackButton.png" alt="Back" class="back img-hor"/></a>
+            <td colspan="2"><a href="Calendar.aspx">חזרה לדף הראשי
+                <img src="imgs/BackButton.png" alt="Back" class="back img-hor" /></a>
             </td>
         </tr>
     </table>
