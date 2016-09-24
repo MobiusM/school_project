@@ -20,7 +20,7 @@
         <br />
         But they are all great cars.
     </h3>
-    <h3 class="bottom">We have Toyota Honda and other cars.
+    <h3 class="bottom">We have <a href="Toyota.aspx" title="click me!">Toyota</a>, <a href="Honda.aspx" title="click me!">Honda</a> and other cars.
     </h3>
 
     <hr />
