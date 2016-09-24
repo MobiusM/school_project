@@ -7,12 +7,12 @@
     <title>Cars Website</title>
 </head>
 <body>
-    <h1>Welcome to the Super-Cars Web Site</h1>
+    <h1>Welcome to the <a href="superCars.aspx" title="click me!">Super-Cars</a> Web Site</h1>
 
     <h2>We sell different cars from various brands</h2>
     <br />
     <br />
-    <h3 style="margin-top: 50px">We sell <span style="font-style: italic">fast</span> cars and <span style="font-size: larger">s&nbsp;l&nbsp;o&nbsp;w</span> cars.
+    <h3>We sell <span style="font-style: italic">fast</span> cars and <span style="font-size: larger">s&nbsp;l&nbsp;o&nbsp;w</span> cars.
         <br />
         <span style="color: Red">Red</span> cars and <span style="color: Blue">blue</span> cars.
         <br />
@@ -20,10 +20,10 @@
         <br />
         But they are all great cars.
     </h3>
-    <h3 style="margin-top: 50px; font-size: x-large; font-weight: normal">We have Toyota Honda and other cars.
+    <h3 class="bottom">We have Toyota Honda and other cars.
     </h3>
 
-    <hr style="margin-top: 280px; border-width: thin" />
+    <hr />
 
     <footer>
     Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
