@@ -10,11 +10,11 @@ body {
     }
 
     body.honda {
-        background-color:;
+        background-color:#90A4AE;
     }
 
     body.toyota {
-        background-color:;
+        background-color:#E0E0E0;
     }
 
 h1 {
@@ -24,6 +24,11 @@ h1 {
 
 td {
     padding: 10px;
+}
+
+td.desc{
+    font-size:x-large;
+    font-weight:600;
 }
 
 hr {

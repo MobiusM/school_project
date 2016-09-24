@@ -17,6 +17,9 @@
             </td>
         </tr>
         <tr>
+            <td class="desc">We sell super cars.</td>
+        </tr>
+        <tr>
             <td colspan="3">
                 <img src="imgs/lambo1.jpg" height="150px" alt="lambo1" />
                 <img src="imgs/lambo2.png" height="150px" alt="lambo2" />
@@ -27,13 +30,13 @@
 
     <hr class="menu" />
 
-        <table style="width:100%;" id="menu">
-            <tr>
-                <th><a href="Cars.aspx">Back to main menu</a></th>
-                <th><a href="Honda.aspx">Honda's</a></th>
-                <th><a href="Toyota.aspx">Toyota's</a></th>
-            </tr>
-        </table>
+    <table style="width: 100%;" id="menu">
+        <tr>
+            <th><a href="Cars.aspx">Back to main menu</a></th>
+            <th><a href="Honda.aspx">Honda's</a></th>
+            <th><a href="Toyota.aspx">Toyota's</a></th>
+        </tr>
+    </table>
 
     <hr />
 
