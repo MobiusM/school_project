@@ -4,9 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <script src="guessNumber.js" type="text/javascript"></script>
+    <title>Guess my number game</title>
+    <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
+
 </body>
 </html>
