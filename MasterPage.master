@@ -4,22 +4,23 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <title>Dan Levinson's Website</title>
+        <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <table>
-        <tr><td>לוגו האתר</td></tr>
-        <tr><td>שורת התפריט</td></tr>
+    <table style="margin:auto">
+        <tr><td colspan="3">לוגו האתר</td></tr>
+        <tr><td colspan="3">שורת התפריט</td></tr>
+        <tr><td>דף הבית</td><td>מחלקת המכוניות</td><td>לוח שנה</td></tr>
         <tr>
-            <td>
+            <td colspan="3">
                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
                 </asp:ContentPlaceHolder>
             </td>
         </tr>
-        <tr><td>האתר נבנה ע"י דן לוינסון</td></tr>
+        <tr><td colspan="3">האתר נבנה ע"י דן לוינסון</td></tr>
     </table>
 </body>
 </html>
