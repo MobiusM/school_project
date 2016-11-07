@@ -1,12 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Cars.aspx.cs" Inherits="cars_Cars" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Cars.aspx.cs" Inherits="cars_Cars" MasterPageFile="~/MasterPage.master" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <title>Cars Website</title>
-</head>
-<body>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h1>Welcome to the <a href="superCars.aspx" title="click me!">Super-Cars</a> Web Site</h1>
 
     <h2>We sell different cars from various brands</h2>
@@ -24,9 +27,5 @@
     </h3>
 
     <hr />
-
-    <footer>
-    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
-</footer>
-</body>
-</html>
+    
+</asp:Content>
