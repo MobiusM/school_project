@@ -1,13 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Calendar.aspx.cs" Inherits="Table" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Calendar.aspx.cs" Inherits="Table"  MasterPageFile="~/MasterPage.master" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>October Calendar</title>
     <link rel="stylesheet" type="text/css" href="css/CalendarStyle.css" />
-</head>
-<body>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h1><u>October Calendar</u></h1>
     <table align="center" cellspacing="0">
         <tr>
@@ -105,10 +105,5 @@
             <td class="notOctober" id="notOctoberShabat"><a href="shabat.aspx">5</a></td>
         </tr>
     </table>
-
-    <footer>
-    <p>Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016</p>
-</footer>
-</body>
-
-</html>
+    
+</asp:Content>

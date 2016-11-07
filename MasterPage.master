@@ -1,26 +1,46 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Dan Levinson's Website</title>
-        <asp:ContentPlaceHolder id="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <table style="margin:auto">
-        <tr><td colspan="3">לוגו האתר</td></tr>
-        <tr><td colspan="3">שורת התפריט</td></tr>
-        <tr><td>דף הבית</td><td>מחלקת המכוניות</td><td>לוח שנה</td></tr>
+    <table style="margin: auto">
         <tr>
             <td colspan="3">
-                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
+                לוגו האתר
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                שורת התפריט
+            </td>
+        </tr>
+        <tr>
+            <td>
+                דף הבית
+            </td>
+            <td>
+                מחלקת המכוניות
+            </td>
+            <td>
+                לוח שנה
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </td>
         </tr>
-        <tr><td colspan="3">האתר נבנה ע"י דן לוינסון</td></tr>
+        <tr>
+            <td colspan="3">
+                <p>
+                    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016</p>
+            </td>
+        </tr>
     </table>
 </body>
 </html>
