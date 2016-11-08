@@ -2,32 +2,35 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-
 <head runat="server">
+    <link rel="stylesheet" type="text/css" href="Styles/menu.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <table style="margin: auto">
         <tr>
-            <td colspan="3">
-                לוגו האתר
+        <td>
+        </td>
+            <td colspan="3" class="header">
+                <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
             </td>
+        <td>
+        </td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="3" class="menu">
                 שורת התפריט
             </td>
         </tr>
-        <tr>
-            <td>
-                דף הבית
+        <tr class="item">
+            <td class="item">
+                <a href="#">דף הבית</a>
             </td>
-            <td>
+            <td class="item">
                 <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
             </td>
-            <td>
+            <td class="item">
                 <a href="/school_project/Calendar/Calendar.aspx">לוח שנה</a>
             </td>
         </tr>
@@ -38,9 +41,8 @@
             </td>
         </tr>
         <tr>
-            <td colspan="3">
-                <p>
-                    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016</p>
+            <td colspan="3" class="footer">
+                    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
             </td>
         </tr>
     </table>

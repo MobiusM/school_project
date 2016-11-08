@@ -1,0 +1,22 @@
+﻿.menu
+{
+    height: 30px;
+    background-color: #8BC34A;
+}
+.item
+{
+    background-color: #689F38;
+}
+menu.table
+{
+}
+.header
+{
+    background-image: /school_project/imgs/grass_header.png;
+    background-color: transparent;
+}
+.footer
+{
+    height: 25px;
+    background-color: #8BC34A;
+}
