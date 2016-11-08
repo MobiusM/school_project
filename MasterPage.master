@@ -10,13 +10,9 @@
 <body>
     <table style="margin: auto">
         <tr>
-        <td>
-        </td>
             <td colspan="3" class="header">
                 <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
             </td>
-        <td>
-        </td>
         </tr>
         <tr>
             <td colspan="3" class="menu">

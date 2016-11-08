@@ -1,13 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="shabat.aspx.cs" Inherits="Calendar_shabat" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="shabat.aspx.cs" Inherits="Calendar_shabat" MasterPageFile="~/MasterPage.master" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Shabat</title>
     <link rel="stylesheet" type="text/css" href="css/HolidayStyle.css" />
-</head>
-<body class="shabat">
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+<div class="shabat">
     <table align="right">
         <tr>
             <td colspan="2">
@@ -48,8 +50,5 @@
             </td>
         </tr>
     </table>
-    <footer>
-    <p>Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016</p>
-</footer>
-</body>
-</html>
+</div>
+</asp:Content>

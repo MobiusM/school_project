@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="superCars.aspx.cs" Inherits="carsprj_superCars" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="superCars.aspx.cs" Inherits="carsprj_superCars" MasterPageFile="~/MasterPage.master" %>
 
 <!DOCTYPE html>
 

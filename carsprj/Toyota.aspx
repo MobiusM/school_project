@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Toyota.aspx.cs" Inherits="carsprj_Toyota" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Toyota.aspx.cs" Inherits="carsprj_Toyota" MasterPageFile="~/MasterPage.master" %>
 
 <!DOCTYPE html>
 
