@@ -1,4 +1,5 @@
-﻿p {
+﻿
+p {
     direction: rtl;
     color: black;
     font-size: 15px;
@@ -49,3 +50,4 @@ a {
         filter: FlipH;
         -ms-filter: "FlipH";
 }
+

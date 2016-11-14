@@ -1,47 +1,44 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Honda.aspx.cs" Inherits="carsprj_Honda" MasterPageFile="~/MasterPage.master" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link rel="stylesheet" type="text/css" href="css/carBrands.css" />
     <title>Honda</title>
-</head>
-<body class="honda">
-    <h1>Honda</h1>
+</asp:Content>
 
-    <table align="center">
-        <tr>
-            <td>
-                <img src="imgs/honda-Logo.png" width="200px" alt="Logo" />
-            </td>
-        </tr>
-        <tr>
-            <td class="desc">We sell Honda's.</td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <img src="imgs/honda1.png" height="150px" alt="honda1" />
-                <img src="imgs/honda2.png" height="150px" alt="honda2" />
-                <img src="imgs/honda3.png" height="150px" alt="honda3" />
-            </td>
-        </tr>
-    </table>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="honda">
+        <h1>Honda</h1>
 
-    <hr class="menu" />
+        <table align="center">
+            <tr>
+                <td>
+                    <img src="imgs/honda-Logo.png" width="200px" alt="Logo" />
+                </td>
+            </tr>
+            <tr>
+                <td class="desc">We sell Honda's.</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img src="imgs/honda1.png" height="150px" alt="honda1" />
+                    <img src="imgs/honda2.png" height="150px" alt="honda2" />
+                    <img src="imgs/honda3.png" height="150px" alt="honda3" />
+                </td>
+            </tr>
+        </table>
 
-    <table style="width: 100%;" id="menu">
-        <tr>
-            <th><a href="Cars.aspx">Back to main menu</a></th>
-            <th><a href="Honda.aspx">Super cars</a></th>
-            <th><a href="Toyota.aspx">Toyota's</a></th>
-        </tr>
-    </table>
+        <hr class="menu" />
 
-    <hr />
+        <table style="width: 100%;" id="menu">
+            <tr>
+                <th><a href="Cars.aspx">Back to main menu</a></th>
+                <th><a href="superCars.aspx">Super cars</a></th>
+                <th><a href="Toyota.aspx">Toyota's</a></th>
+            </tr>
+        </table>
 
-    <footer>
-        Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
-    </footer>
-</body>
-</html>
+        <hr />
+
+    </div>
+</asp:Content>

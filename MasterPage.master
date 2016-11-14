@@ -6,28 +6,32 @@
     <link rel="stylesheet" type="text/css" href="Styles/menu.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="/Scripts/JavaScript.js"></script>
 </head>
-<body>
+<body onload="startTime()">
     <table style="margin: auto">
         <tr>
             <td colspan="3" class="header">
-                <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
+                <img src="/imgs/grass_header.png" alt="header" height="200px" />
             </td>
         </tr>
         <tr>
-            <td colspan="3" class="menu">
-                שורת התפריט
+            <td class="menu">
+                <div id="time"></div>
             </td>
+            <td class="menu">שורת התפריט
+            </td>
+            <td class="menu"></td>
         </tr>
         <tr class="item">
             <td class="item">
-                <a href="#">דף הבית</a>
+                <a href="/HomePage/Default.aspx">דף הבית</a>
             </td>
             <td class="item">
-                <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
+                <a href="/carsprj/Cars.aspx">מחלקת המכוניות</a>
             </td>
             <td class="item">
-                <a href="/school_project/Calendar/Calendar.aspx">לוח שנה</a>
+                <a href="/Calendar/Calendar.aspx">לוח השנה</a>
             </td>
         </tr>
         <tr>
@@ -37,8 +41,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan="3" class="footer">
-                    Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
+            <td colspan="3" class="footer">Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
             </td>
         </tr>
     </table>

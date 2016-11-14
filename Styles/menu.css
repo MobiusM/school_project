@@ -19,3 +19,24 @@ menu.table
     height: 25px;
     background-color: #8BC34A;
 }
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+table
+{
+    display: grid;
+    width: 1000px;
+    table-layout: fixed;
+    text-align: center;
+    border: 0px solid white;
+}
+td
+{
+    height: 90px;
+}
+body
+{
+    font-family: 'Roboto' , sans-serif;
+}
