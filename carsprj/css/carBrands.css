@@ -1,69 +1,82 @@
 ﻿@import 'https://fonts.googleapis.com/css?family=Roboto';
 
-body {
-    font-family: 'Roboto', sans-serif;
+body
+{
+    font-family: 'Roboto' , sans-serif;
     text-align: center;
 }
 
-    body.lambo {
-        background-color: #FFF9C4;
-    }
+body.lambo
+{
+    background-color: #FFF9C4;
+}
 
-    body.honda {
-        background-color:#90A4AE;
-    }
+body.honda
+{
+    background-color: #90A4AE;
+}
 
-    body.toyota {
-        background-color:#E0E0E0;
-    }
+body.toyota
+{
+    background-color: #E0E0E0;
+}
 
-h1 {
+h1
+{
     font-weight: bold;
     color: #E53935;
+    text-align: center;
 }
 
-td {
+td
+{
     padding: 10px;
+    vertical-align: middle;
 }
 
-td.desc{
-    font-size:x-large;
-    font-weight:600;
+td.desc
+{
+    font-size: x-large;
+    font-weight: 600;
+    vertical-align: middle;
 }
 
-hr {
+hr
+{
     border-width: thin;
     width: 80%;
     position: absolute;
-    bottom: 35px;
     left: 0;
     right: 0;
 }
 
-    hr.menu {
-        border-width: 3px;
-        border-style: solid;
-        color: #757575;
-        bottom: 250px;
-        width: 90%;
-    }
+hr.menu
+{
+    border-width: 3px;
+    border-style: solid;
+    color: #757575;
+    width: 90%;
+    vertical-align: middle;
+}
 
-footer {
+footer
+{
     position: absolute;
     left: 0;
     right: 0;
     bottom: 10px;
 }
 
-a {
+a
+{
     color: inherit;
     text-decoration: none;
 }
 
-#menu{
-    padding:35px;
-    position:absolute;
-    left:0;
-    right:0;
-    bottom:200px;
+#menu
+{
+    padding: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
 }

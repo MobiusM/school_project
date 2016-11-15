@@ -6,42 +6,41 @@
     <link rel="stylesheet" type="text/css" href="Styles/menu.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <script type="text/javascript" src="/Scripts/JavaScript.js"></script>
+    <script type="text/javascript" src="/school_project/Scripts/JavaScript.js"></script>
 </head>
 <body onload="startTime()">
     <table style="margin: auto">
-        <tr>
-            <td colspan="3" class="header">
-                <img src="/imgs/grass_header.png" alt="header" height="200px" />
-            </td>
-        </tr>
-        <tr>
+        <tr >
             <td class="menu">
-                <div id="time"></div>
+                <div id="time">
+                </div>
             </td>
-            <td class="menu">שורת התפריט
+            <td class="header" colspan="7">
+                <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
             </td>
-            <td class="menu"></td>
+            <td >
+            </td>
         </tr>
         <tr class="item">
-            <td class="item">
-                <a href="/HomePage/Default.aspx">דף הבית</a>
+            <td class="item" colspan="3">
+                <a href="/school_project/HomePage/Default.aspx">דף הבית</a>
             </td>
-            <td class="item">
-                <a href="/carsprj/Cars.aspx">מחלקת המכוניות</a>
+            <td class="item" colspan="3">
+                <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
             </td>
-            <td class="item">
-                <a href="/Calendar/Calendar.aspx">לוח השנה</a>
+            <td class="item" colspan="3">
+                <a href="/school_project/Calendar/Calendar.aspx">לוח השנה</a>
             </td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="9">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </td>
         </tr>
         <tr>
-            <td colspan="3" class="footer">Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
+            <td colspan="9" class="footer">
+                Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
             </td>
         </tr>
     </table>
