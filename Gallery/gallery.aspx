@@ -8,24 +8,7 @@
     <table>
         <tr>
             <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
+            <img src="imgs/T1.jpg" alt="t1"/>
             </td>
             <td>
             </td>
@@ -37,13 +20,7 @@
         <tr>
             <td>
             </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
+            <td colspan="2">
             </td>
             <td>
             </td>
@@ -51,37 +28,12 @@
         <tr>
             <td>
             </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
+            <td colspan="2">
             </td>
             <td>
             </td>
         </tr>
         <tr>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-            </td>
-            <td>
-            </td>
             <td>
             </td>
             <td>
