@@ -15,31 +15,34 @@
                 <div id="time">
                 </div>
             </td>
-            <td class="header" colspan="7">
+            <td class="header" colspan="8">
                 <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
             </td>
-            <td >
+            <td  colspan="4">
             </td>
         </tr>
         <tr class="item">
-            <td class="item" colspan="3">
+            <td class="item" colspan="4">
                 <a href="/school_project/HomePage/Default.aspx">דף הבית</a>
             </td>
-            <td class="item" colspan="3">
+            <td class="item" colspan="4">
                 <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
             </td>
-            <td class="item" colspan="3">
+            <td class="item" colspan="4">
                 <a href="/school_project/Calendar/Calendar.aspx">לוח השנה</a>
+            </td>
+            <td class="item" colspan="4">
+                <a href="/school_project/Hanukia/Hanuka.aspx">חנוכיה</a>
             </td>
         </tr>
         <tr>
-            <td colspan="9">
+            <td colspan="16">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </td>
         </tr>
         <tr>
-            <td colspan="9" class="footer">
+            <td colspan="16" class="footer">
                 Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
             </td>
         </tr>
