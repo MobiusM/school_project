@@ -34,7 +34,7 @@
         }
 
         guesses.value = '';
-        numToGuess = Math.floor(Math.random() * 500);
+        numToGuess = Math.floor(Math.random() * 100);
         guesses.value = "New number generated.\n";
 
         document.getElementById('numberToGuess').value = '';
