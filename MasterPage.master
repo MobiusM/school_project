@@ -11,7 +11,7 @@
 <body onload="startTime()">
     <table style="margin: auto">
         <tr >
-            <td class="menu">
+            <td class="menu" colspan="3">
                 <div id="time">
                 </div>
             </td>
@@ -22,27 +22,30 @@
             </td>
         </tr>
         <tr class="item">
-            <td class="item" colspan="4">
+            <td class="item" colspan="5">
                 <a href="/school_project/HomePage/Default.aspx">דף הבית</a>
             </td>
-            <td class="item" colspan="4">
+            <td class="item" colspan="5">
                 <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
             </td>
-            <td class="item" colspan="4">
+            <td class="item" colspan="5">
                 <a href="/school_project/Calendar/Calendar.aspx">לוח השנה</a>
             </td>
-            <td class="item" colspan="4">
+            <td class="item" colspan="5">
                 <a href="/school_project/Hanukia/Hanuka.aspx">חנוכיה</a>
+            </td>
+            <td class="item" colspan="5">
+                <a href="/school_project/sevivon/Sevivon.aspx">סביבון</a>
             </td>
         </tr>
         <tr>
-            <td colspan="16">
+            <td colspan="25">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </td>
         </tr>
         <tr>
-            <td colspan="16" class="footer">
+            <td colspan="25" class="footer">
                 Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
             </td>
         </tr>
