@@ -73,7 +73,7 @@
 <fieldset>
  <legend>Inputs</legend>
  <label for="guess">Your Guess:</label>
- <input type="text" id="guess" value="523" />
+ <input type="text" id="guess" value="0" />
  <input type="button" onclick="yourGuess()" value="submit" /><br />
  <input type="button" id="showguesses" onclick="showGuesses()" value="Show My Guesses" />  
  <input type="button" onclick="generateNumberToGuess(true)" value="New Game" /><br />
@@ -86,7 +86,7 @@
 </fieldset>
 <fieldset id="guesses" class="guesses">
  <legend> Output </legend>
- <textarea id="output" name="output" rows="5" style="width: 100%;"></textarea>
+ <textarea id="output" name="output" rows="10" style="width: 100%;"></textarea>
 </fieldset>
 
 </asp:Content>
