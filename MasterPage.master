@@ -11,41 +11,44 @@
 <body onload="startTime()">
     <table style="margin: auto">
         <tr >
-            <td class="menu" colspan="3">
+            <td class="menu" colspan="4">
                 <div id="time">
                 </div>
             </td>
-            <td class="header" colspan="8">
+            <td class="header" colspan="16">
                 <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
             </td>
-            <td  colspan="4">
+            <td  colspan="6">
             </td>
         </tr>
         <tr class="item">
-            <td class="item" colspan="5">
+            <td class="item" colspan="6">
                 <a href="/school_project/HomePage/Default.aspx">דף הבית</a>
             </td>
-            <td class="item" colspan="5">
+            <td class="item" colspan="6">
                 <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
             </td>
-            <td class="item" colspan="5">
+            <td class="item" colspan="6">
                 <a href="/school_project/Calendar/Calendar.aspx">לוח השנה</a>
             </td>
-            <td class="item" colspan="5">
+            <td class="item" colspan="6">
                 <a href="/school_project/Hanukia/Hanuka.aspx">חנוכיה</a>
             </td>
-            <td class="item" colspan="5">
+            <td class="item" colspan="6">
                 <a href="/school_project/sevivon/Sevivon.aspx">סביבון</a>
+            </td>
+            <td class="item" colspan="6">
+                <a href="/school_project/guessnumber/guessNumber.aspx">משחק הניחושים</a>
             </td>
         </tr>
         <tr>
-            <td colspan="25">
+            <td colspan="36">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </td>
         </tr>
         <tr>
-            <td colspan="25" class="footer">
+            <td colspan="36" class="footer">
                 Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
             </td>
         </tr>
