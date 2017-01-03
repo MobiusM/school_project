@@ -22,9 +22,22 @@ public partial class csharp_numbers : System.Web.UI.Page
                 str += "<br>";
             }
 
-            str += i;
+            str += color(i);
 
         }
+
+    }
+
+    private string color(int num)
+    {
+
+        if (num % 2 == 0) {
+
+            return "<font color=red>" + num + "</font>";
+
+        }
+
+        return "<font color=blue>" + num + "</font>";
 
     }
 }
