@@ -7,9 +7,13 @@
     <title></title>
 </head>
 <body>
+<table>
+
 
 <%= str %>
 
+
+</table>
 
 </body>
 </html>

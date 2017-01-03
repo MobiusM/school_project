@@ -13,21 +13,29 @@ public partial class csharp_numbers : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
-        for (int i = 1; i <= 10; i++)
+        str += "<tr>";
+        for (int i = 1; i <= 5; i++)
         {
-           
-            if (i == 6)
-            {
-                str += "<br>";
-            }
 
-            str += color(i);
+            str += "<td "+bgcolor(i)+">"+color(i)+"</td>";
 
         }
 
+        str += "</tr>";
+        str += "<tr>";
+
+        for (int i = 6; i <= 10; i++)
+        {
+
+            str += "<td " + bgcolor(i) + ">" + color(i) + "</td>";
+
+        }
+
+        str += "</tr>";
+
     }
 
+    // set color for the number
     private string color(int num)
     {
 
@@ -38,6 +46,21 @@ public partial class csharp_numbers : System.Web.UI.Page
         }
 
         return "<font color=blue>" + num + "</font>";
+
+    }
+
+    //return bg color for td
+    private string bgcolor(int num)
+    {
+
+        if (num % 2 == 0)
+        {
+
+            return "bgcolor=aqua";
+
+        }
+
+        return "bgcolor=pink";
 
     }
 }
