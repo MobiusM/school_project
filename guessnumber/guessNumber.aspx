@@ -81,7 +81,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 <h2 Style="text-decoration: underline;" >Guess a Number</h2>
-<input type="button" onclick="startGame()" value="start game" id="gameStarter"/>
+<p>In this game a random number is generated between 0 and 100. <br />Your goal is to guess the correct number.<br /> You will recieve feedback based on the number you've guessed.</p>
+<input type="button" onclick="startGame()" value="start game" id="gameStarter"/><br />
 <fieldset style="display: none;" id="inputs">
  <legend>Inputs</legend>
  <label for="guess">Your Guess:</label>
@@ -99,7 +100,7 @@
 <fieldset id="guesses" class="guesses" style="display: none;">
  <legend> Output </legend>
  <textarea id="output" name="output" rows="10" style="width: 100%;"></textarea>
-</fieldset>
+</fieldset><br />
 
 </asp:Content>
 
