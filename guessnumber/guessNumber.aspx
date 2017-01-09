@@ -56,6 +56,17 @@
 
     window.onload = function () {
         generateNumberToGuess();
+     }
+
+    function startGame() {
+
+        var inputs = document.getElementById('inputs');
+        var guesses = document.getElementById('guesses');
+        var gameStarter = document.getElementById('gameStarter');
+
+        gameStarter.style.display = 'none';
+        inputs.style.display = 'block';
+        guesses.style.display = 'block';
     }
 
 </script>
@@ -69,8 +80,9 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-
-<fieldset>
+<h2 Style="text-decoration: underline;" >Guess a Number</h2>
+<input type="button" onclick="startGame()" value="start game" id="gameStarter"/>
+<fieldset style="display: none;" id="inputs">
  <legend>Inputs</legend>
  <label for="guess">Your Guess:</label>
  <input type="text" id="guess" value="0" />
@@ -84,7 +96,7 @@
   <label for="numberToGuess">Number to guess</label>
  </div>
 </fieldset>
-<fieldset id="guesses" class="guesses">
+<fieldset id="guesses" class="guesses" style="display: none;">
  <legend> Output </legend>
  <textarea id="output" name="output" rows="10" style="width: 100%;"></textarea>
 </fieldset>
