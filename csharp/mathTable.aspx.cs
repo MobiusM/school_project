@@ -13,7 +13,51 @@ public partial class csharp_mathTable : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
+        
+        for (int i = 1; i <= 10; i++)
+        {
 
+            str += "<tr>";
+
+
+            for (int j = 1; j <= 10; j++)
+            {
+
+                str += "<td " + bgcolor(i) + ">" + i*j + "</td>";
+
+            }
+
+
+
+        }
+
+    }
+
+
+    //return bg color for td
+    private string bgcolor(int num)
+    {
+
+        if (num % 3 == 0 && num % 5 == 0)
+        {
+
+            return "bgcolor=lime";
+
+        }
+        else if (num % 3 == 0)
+        {
+
+            return "bgcolor=yellow";
+
+        }
+        else if (num % 5 == 0)
+        {
+
+            return "bgcolor=aqua";
+
+        }
+
+        return "";
 
     }
 }
