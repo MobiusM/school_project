@@ -20,53 +20,60 @@
             var help, eser = 0, hamesh = 0, shekel = 0, agura = 0;
             var mesg = "";
             var num = parseInt(document.getElementById("drinknum").value);
-            var amount = parseInt(document.getElementById("Text1").value);
+            var amount = parseFloat(document.getElementById("Text1").value);
 
             //value checking
             if (num < 1 || num > 4) {
                 document.getElementById("mes").innerHTML = "הכנסת מספר לא חוקי של משקה! נסה שנית.";
                 calaculate();
             }
-            if (amount < 0 || amount > Number.MAX_SAFE_INTEGER) {
+            if (amount < 0.0) {
                 document.getElementById("mes").innerHTML = "הכנסת סכום כסף לא חוקי! נסה שנית.";
                 calaculate();
             }
 
 
             if (num == 1) {
-                if (amount < 5.6) {
-                    document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
-                    calaculate();
-                }
+                //if (amount < 5.6) {
+                //    document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
+                //    calaculate();
+               // }
                 help = parseFloat(amount - 5.60);
                 mesg += "בחרת משקה קפה שמחירו 5.60 שח' ";
             }
             if (num == 2) {
-                if (amount < 4.80) {
-                    document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
-                }
+              //  if (amount < 4.80) {
+              //      document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
+              //  }
                 help = parseFloat(amount - 4.80);
                 mesg += "בחרת משקה תה שמחירו 4.80 שח' ";
             }
             if (num == 3) {
-                if (amount < 6.25) {
-                    document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
-                }
+               // if (amount < 6.25) {
+               //     document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
+               // }
                 help = parseFloat(amount - 6.25);
                 mesg += "בחרת משקה קולה שמחירו 6.25 שח' ";
             }
             if (num == 4) {
-                if (amount < 3.90) {
-                    document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
-                }
+               // if (amount < 3.90) {
+               //     document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
+               // }
                 help = parseFloat(amount - 3.90);
                 mesg += "בחרת משקה מרק שמחירו 3.90 שח' ";
             }
+
+
+            if (help < 0.0) {
+                document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
+                calaculate();
+            }
             help = help.toFixed(2);
+
             mesg += "<br/>";
             mesg += "הכנסת למכונה " + amount + " שח'";
             mesg += "<br/>";
-            mesg += "מגיע לך עודף " + help + " שח'";
+            mesg += "עודף: " + help + " שח'";
             mesg += "<br/>";
             while (help > 0) {
                 if (help > 10) {
@@ -86,7 +93,7 @@
                     help -= 0.1;
                 }
             }
-            agura--;
+            //agura--;
             mesg += "לפי הפירוט הבא : "; mesg += "<br/>";
             if (eser > 0) {
                 mesg += eser + " מטבע של 10 שח' "; mesg += "<br/>";
