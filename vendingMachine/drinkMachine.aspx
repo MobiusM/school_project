@@ -63,6 +63,8 @@
                 mesg += "בחרת משקה מרק שמחירו 3.90 שח' ";
             }
 
+            //SGkgRXJhbiwgb25seSB5b3UgY2FuIHJlYWQgdGhpcyA6KQ==
+
 
             if (help < 0.0) {
                 document.getElementById("mes").innerHTML = "לא הוכנס מספיק כסף! נסה שנית.";
