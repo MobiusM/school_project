@@ -23,7 +23,7 @@ public partial class csharp_mathTable : System.Web.UI.Page
             for (int j = 1; j <= 10; j++)
             {
 
-                str += "<td " + bgcolor(i) + ">" + i*j + "</td>";
+                str += @"<td style=""border:1px solid black""" + bgcolor(i) + ">" + i*j + "</td>";
 
             }
 

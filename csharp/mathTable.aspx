@@ -1,14 +1,29 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="mathTable.aspx.cs" Inherits="csharp_mathTable" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="mathTable.aspx.cs" Inherits="csharp_mathTable" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<style type="text/css">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-  
-<table>
+
+
+#tbl
+{
+    margin:0 auto;
+    height:650px;
+    width:650px;   
+}
+
+</style>
+</asp:Content>
+
+
+
+
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+
+<table >
 
 
 <%= str %>
@@ -17,5 +32,5 @@
 </table>
 
 
-</body>
-</html>
+
+</asp:Content>
