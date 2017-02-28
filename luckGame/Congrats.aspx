@@ -58,7 +58,7 @@
                 <td><h2>במשחק זה צברת <%= Session["score"] %> נקודות</h2></td>
             </tr>
             <tr style="height: 300px">
-                <td style="width: 300px"><center><img src = "pics/balloon.png" name = "ball" alt = "balloon" /></center></td>
+                <td style="width: 300px"><center><img src = "pics/balloon.png" name = "ball" alt = "balloon2" /></center></td>
             </tr>
             <tr>
                 <td ><a href="Game.aspx">למשחק חדש</a></td>
