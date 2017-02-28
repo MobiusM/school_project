@@ -46,13 +46,13 @@ public partial class Game : System.Web.UI.Page
             str += "</tr></table>";
 
             if (n1 == 7 && n2 == 7 && n3 == 7)
-                res = 50;
+                res += 50;
             else if (n1 == n2 && n1 == n3)
-                res = 10;
+                res += 10;
             else if (n1 == n2 || n2 == n3 || n3 == n1)
-                res = 2;
+                res += 2;
             else
-                res = 1;
+                res += 1;
 
             if (Session["score"] == null)
                 Session["score"] = 0;
@@ -60,7 +60,7 @@ public partial class Game : System.Web.UI.Page
             tot = (int)Session["score"] + res;
             Session["score"] = tot;
 
-            if (tot >= 100)
+            if (tot >= 50)
                 Response.Redirect("Congrats.aspx");
         }
         
