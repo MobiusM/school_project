@@ -8,8 +8,8 @@
 #tbl
 {
     margin:0 auto;
-    height:650px;
-    width:650px;   
+    height:500px;
+    width:500px;   
 }
 
 </style>

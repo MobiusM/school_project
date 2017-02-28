@@ -20,6 +20,7 @@ public partial class Game : System.Web.UI.Page
         n1 = GetNum();
         n2 = GetNum();
         n3 = GetNum();
+        Boolean nameSet = false;
 
         if (Request.Form["send"] != null)
         {
@@ -36,6 +37,11 @@ public partial class Game : System.Web.UI.Page
             {
                 showName = "";
                 name = (String)Session["uName"];
+                if (nameSet == false && Session["userName"] != "אורח")
+                {
+                    res += 5;
+                    nameSet = true;
+                }
             }
             str += "שלום " + name + "<br /><br />";
 
