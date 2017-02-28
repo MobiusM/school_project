@@ -17,13 +17,13 @@ public partial class csharp_mathTable : System.Web.UI.Page
         for (int i = 1; i <= 10; i++)
         {
 
-            str += "<tr>";
+            str += "<tr class=MATHtr>";
 
 
             for (int j = 1; j <= 10; j++)
             {
 
-                str += @"<td style=""border:1px solid black""" + bgcolor(i) + ">" + i*j + "</td>";
+                str += @"<td class=MATHtd style=""border:1px solid black""" + bgcolor(i) + ">" + i*j + "</td>";
 
             }
 

@@ -11,6 +11,17 @@
     height:500px;
     width:500px;   
 }
+.MATHtr
+{
+    height:45px;
+    width:45px;
+}
+.MATHtd
+{
+    height:45px;
+    width:45px;
+}
+
 
 </style>
 </asp:Content>
