@@ -11,34 +11,33 @@
 <body onload="startTime()">
     <table style="margin: auto">
         <tr class="mTr">
-            <td class="menu, mTd" colspan="4" >
-                <div id="time">
-                </div>
+            <td class="menu, mTd" colspan="4">
+             <!--   <div id="time"> -->
+                <a href="/school_project/users/Admin.aspx" id="time"></a>
+                <br />
+            <!--    </div> -->
+                <br />
+                <a href="/school_project/users/Login.aspx">Login</a>
+                <br />
+                <a href="/school_project/users/Logout.aspx">Logout</a>
+                <br />
+                <a href="/school_project/users/Register.aspx">Register</a>
+                <br />
             </td>
             <td class="header,mTd" colspan="16">
                 <img src="/school_project/imgs/grass_header.png" alt="header" height="200px" />
             </td>
-            <td  colspan="6" class="mTd">
-            </td>
-        </tr>
-        <tr class="item">
-            <td class="item, mTd" colspan="6">
-                <a href="/school_project/HomePage/Default.aspx">דף הבית</a>
-            </td>
-            <td class="item, mTd" colspan="6">
-                <a href="/school_project/carsprj/Cars.aspx">מחלקת המכוניות</a>
-            </td>
-            <td class="item, mTd" colspan="6">
-                <a href="/school_project/Calendar/Calendar.aspx">לוח השנה</a>
-            </td>
-            <td class="item, mTd" colspan="6">
-                <a href="/school_project/Hanukia/Hanuka.aspx">חנוכיה</a>
-            </td>
-            <td class="item, mTd" colspan="6">
-                <a href="/school_project/sevivon/Sevivon.aspx">סביבון</a>
-            </td>
-            <td class="item, mTd" colspan="6">
-                <a href="/school_project/guessnumber/guessNumber.aspx">משחק הניחושים</a>
+            <td colspan="16" class="mTd">
+                <a href="/school_project/HomePage/Default.aspx">Home Page</a>
+                <br />
+                <a href="/school_project/MultiBoard/MultipicationBoard.aspx">Multipication Board</a>
+                <br />
+                <a href="/school_project/vendingMachine/drinkMachine.aspx">Vending Machine</a>
+                <br />
+                <a href="/school_project/guessnumber/guessNumber.aspx">Guess Number</a><br />
+                <a href="/school_project/Gallery/gallery.aspx">Gallery</a><br />
+                <a href="/school_project/Hanukia/Hanuka.aspx">Hanukiyah</a><br />
+                <a href="/school_project/sevivon/Sevivon.aspx">Sevivon</a><br />
             </td>
         </tr>
         <tr class="mTr">
@@ -49,7 +48,7 @@
         </tr>
         <tr class="mTr">
             <td colspan="36" class="footer, mTd">
-                Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2016
+                Created by <a href="mailto:danholandi@gmail.com">Dan Levinson</a>, 2017
             </td>
         </tr>
     </table>

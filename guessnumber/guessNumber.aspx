@@ -3,6 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <script type="text/javascript">
 
+
+    numToGuess = Math.floor(Math.random() * 100);
+
     function yourGuess() {
         var guess = document.getElementById("guess").value;
         var guesses = document.getElementById("output");
