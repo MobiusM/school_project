@@ -4,6 +4,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h1 style="color: Red; font-size : 300%;">You have been logged out</h1><br />
-    <a href="HomePage.aspx">Back to Home Page</a><br />
+    <a href="/school_project/HomePage/Default.aspx">Back to Home Page</a><br />
     <a href="Login.aspx">Login</a>
 </asp:Content>
